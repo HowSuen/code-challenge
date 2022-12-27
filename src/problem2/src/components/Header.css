@@ -1,0 +1,29 @@
+.headerContainer {
+    margin-bottom: 40px;
+}
+
+.headerText {
+    font-family: "Times New Roman", serif;
+    letter-spacing: 5px;
+    font-weight: bold;
+    background: linear-gradient(
+        to right,
+        #cb9b51 22%,
+        #f6e27a 45%,
+        #f6f2c0 50%,
+        #f6e27a 55%,
+        #cb9b51 78%,
+        #462523 100%
+    );
+    font-size: 40px;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.headerDesc {
+    font-size: 14;
+    line-height: 1.3;
+    color: #f6f2c0;
+    font-family: "Arial";
+}
