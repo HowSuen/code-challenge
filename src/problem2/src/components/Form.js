@@ -42,7 +42,7 @@ function Form() {
     }
 
     function printResult(data, arr) {
-        if (!data || isOtpFilled(arr)) {
+        if (!data || !isOtpFilled(arr)) {
             return "";
         }
         const obj = JSON.parse(data);

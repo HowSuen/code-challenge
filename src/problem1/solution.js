@@ -23,7 +23,7 @@ var sum_to_n_b = function(n) {
 
 var sum_to_n_c = function(n) {
     // your code here
-    // Mathematical Formula of sum of n terms from A to B: 
+    // Mathematical Formula of sum of n terms from A to B: y
     // sum = n(A + B)/2
     return n * (1 + n) / 2;
 };

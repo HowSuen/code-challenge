@@ -21,7 +21,7 @@ class DataSource {
             data.prices.forEach((price) => {
                 arr.push({
                     mid: function () {
-                        return (price.buy + price.sell) / (2 * 100);
+                        return (price.buy + price.sell) / 2;
                     },
                     quote: function () {
                         return price.pair.slice(-3);
