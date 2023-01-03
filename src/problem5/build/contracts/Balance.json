@@ -35,8 +35,7 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function",
-      "constant": true
+      "type": "function"
     }
   ],
   "metadata": "{\"compiler\":{\"version\":\"0.8.17+commit.8df45f5f\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"address\",\"name\":\"wallet\",\"type\":\"address\"},{\"internalType\":\"address[]\",\"name\":\"tokenAddresses\",\"type\":\"address[]\"}],\"name\":\"getBalances\",\"outputs\":[{\"components\":[{\"internalType\":\"address\",\"name\":\"token\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"balance\",\"type\":\"uint256\"}],\"internalType\":\"struct Balance.Token[]\",\"name\":\"\",\"type\":\"tuple[]\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/Balance.sol\":\"Balance\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/Balance.sol\":{\"keccak256\":\"0x1e0ce7a6a0f5e76042d29006efd1162e04167a2d37f58cb79843244758d8bea6\",\"license\":\"GPL-3.0\",\"urls\":[\"bzz-raw://37c4599cdf3d22454f39c5dc4f406787bbf74c8273b9b3f6cac7dd7a0b05d5e9\",\"dweb:/ipfs/QmQCXg5by25vNC5o1aRF467pjLfvQ7Shd18qHLAxrwdoQp\"]}},\"version\":1}",
@@ -5361,8 +5360,7 @@
     }
   },
   "schemaVersion": "3.4.11",
-  "updatedAt": "2022-12-28T07:09:06.130Z",
-  "networkType": "ethereum",
+  "updatedAt": "2023-01-03T17:33:58.916Z",
   "devdoc": {
     "kind": "dev",
     "methods": {},
